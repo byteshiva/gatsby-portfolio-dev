@@ -1,8 +1,8 @@
 # Portfolio for developers
 
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/smakosh/gatsby-portfolio-dev)
+[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/byteshiva/gatsby-portfolio-dev)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/57c04515-1d1b-46e8-b531-213fabca9cc4/deploy-status)](https://app.netlify.com/sites/gatsby-portfolio-dev/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/342faec3-ca43-4485-bde9-e4bee25e1ba5/deploy-status)](https://app.netlify.com/sites/sivach/deploys)
 
 ## Theme
 
@@ -68,6 +68,8 @@ When deploying on Netlify, you will have to set the private key as well
 SITE_RECAPTCHA_KEY=xxxxx
 
 SITE_RECAPTCHA_SECRET=xxxxx
+
+GITHUB_TOKEN=xxxxxx
 ```
 
 I highly recommend you check this [repository](https://github.com/imorente/gatsby-netlify-form-example) for more details about the Google Recaptcha and Netlify forms
