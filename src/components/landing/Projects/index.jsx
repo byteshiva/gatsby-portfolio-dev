@@ -5,6 +5,8 @@ import starIcon from 'assets/icons/star.svg'
 import forkIcon from 'assets/icons/fork.svg'
 import { Wrapper, Grid, Item, Content, Stats } from './styles'
 
+// Reference https://developer.github.com/v4/object/user/#repositories
+// Shows repo with Public Permission.
 export const Projects = () => {
   const {
     github: {
@@ -18,6 +20,7 @@ export const Projects = () => {
         github {
           viewer {
             repositories(
+              privacy: PUBLIC
               first: 8
               orderBy: { field: STARGAZERS, direction: DESC }
             ) {

@@ -2,7 +2,7 @@
   {
     "id": 0,
     "name": "Telegram",
-    "link": "https://t.me/byteshiva",
+    "link": "https://t.me/byteshiva_bot",
     "icon": "/icons/telegram.svg"
   },
   {
@@ -28,5 +28,11 @@
     "name": "Twitter",
     "link": "https://twitter.com/byteshiva",
     "icon": "/icons/twitter.svg"
+  },
+  {
+    "id": 5,
+    "name": "Medium",
+    "link": "https://medium.com/@byteshiva",
+    "icon": "/icons/medium.svg"
   }
 ]
